@@ -10,8 +10,8 @@
         android:id="@+id/help1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send WhatsApp to numbers not in your phone book"
-        android:textSize="15dp"
+        android:text="@string/help1"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -20,8 +20,8 @@
         android:id="@+id/help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
-        android:text="Simply select the number and share to this app"
+        android:textSize="15sp"
+        android:text="@string/help2"
         app:layout_constraintTop_toBottomOf="@id/help1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -45,7 +45,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/phone_number"
             android:id="@+id/sendButton"
-            android:text="Send">
+            android:text="@string/send">
 
         </androidx.appcompat.widget.AppCompatButton>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 this.sendToWhatsapp((text))
             }
             catch (e: Exception){
-                Toast.makeText(this,"Error: "+e.message, Toast.LENGTH_LONG)
+                Toast.makeText(this,"Error: "+e.message, Toast.LENGTH_LONG).show()
             }
 
         }
@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
         } catch (e: Exception) {
             phone_number.setText(text)
-            Toast.makeText(this,e.message,Toast.LENGTH_LONG)
+            Toast.makeText(this,e.message,Toast.LENGTH_LONG).show()
             return
         }
         formattedNumber = formattedNumber.removePrefix("+")
